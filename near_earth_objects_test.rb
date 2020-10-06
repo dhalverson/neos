@@ -7,4 +7,6 @@ class NearEarthObjectsTest < Minitest::Test
     results = NearEarthObjects.find_neos_by_date('2019-03-30')
     assert_equal '(2019 GD4)', results[:astroid_list][0][:name]
   end
+
+  
 end
