@@ -1,6 +1,5 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require 'pry'
 require_relative 'near_earth_objects'
 
 class NearEarthObjectsTest < Minitest::Test
